@@ -3433,9 +3433,94 @@ button:focus,
 /**=======================================================**
                   AUTHENTICATIONS END
 **=======================================================**/
-.homepage {
-  background-color: green !important;
-  color: red !important;
+.services {
+  background: hsl(0deg, 0%, 0%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 3.75rem 0rem;
+}
+.services .service-title {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+.services .heading-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.625rem;
+  flex-wrap: wrap;
+}
+.services .heading-link .service-heading {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+}
+@media screen and (min-width: 36rem) {
+  .services .heading-link .service-heading {
+    font-family: "Inter", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.4285714286;
+  }
+}
+@media screen and (min-width: 62rem) {
+  .services .heading-link .service-heading {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.25;
+  }
+}
+.services .round-link a {
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+  margin-left: -1.875rem;
+}
+.services .services-wrapper {
+  padding: 3.125rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.services .services-wrapper .single-service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6.25rem;
+}
+.services .services-wrapper .single-service .left-image {
+  display: none;
+}
+@media screen and (min-width: 62rem) {
+  .services .services-wrapper .single-service .left-image {
+    display: block;
+  }
+}
+.services .services-wrapper .single-service .right-content {
+  border-bottom: 1px solid #454545;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .services-wrapper .single-service .right-content .content {
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+.services .services-wrapper .single-service .right-content .content .service-title {
+  color: hsl(0deg, 0%, 100%);
+}
+.services .services-wrapper .single-service .right-content .content .service-content {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .container {

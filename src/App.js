@@ -9,7 +9,8 @@ import Posstdetail from './component/Posstdetail';
 import Posts from './component/Posts';
 import Product from './component/Product';
 import Main from './layout/Main';
-import Home from './pages/Home';
+import Home from './pages/home/Home'
+
 
 const App = () => {
   const router=createBrowserRouter([

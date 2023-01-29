@@ -2,8 +2,84 @@
 @use "../partials" as *;
 
 
-.homepage {
-  background-color: green !important;
-  color: red !important;
+.services {
+  background: $black;
+  color: $white;
+  padding: size(60) size(0);
+
+  .service-title {
+    @include flex;
+    align-items: center;
+    gap: size(14);
+  }
+
+  .heading-link {
+    @include flex-between;
+    align-items: center;
+    margin-top: size(10);
+    flex-wrap: wrap;
+    .service-heading {
+      color: $white;
+      @include font($primaryFont,20,medium,normal,30);
+      @include breakpoint(mobile576) {
+      @include font($primaryFont,28,medium,normal,40);
+
+      }
+      @include breakpoint(tab992) {
+      @include font($primaryFont,40,medium,normal,50);
+
+      }
+    }
+  }
+
+  .round-link {
+    
+    .round-icon {
+
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+      margin-left: size(-30);
+    }
+  }
+
+   .services-wrapper {
+    padding: size(50) size(0);
+    @include flex-column;
+    gap: size(20);
+    .single-service {
+      @include flex-between;
+      gap: size(100);
+
+      .left-image {
+        display: none;
+        @include breakpoint(tab992) {
+          display: block;
+        }
+      }
+
+      .right-content {
+        border-bottom: 1px solid #454545;
+        flex: 1;
+        @include flex-between;
+        align-items: center;
+        .content { 
+          max-width: size(560);
+          @include flex-column;
+          gap: size(14);
+          .service-title {
+            color: $white;
+          }
+          .service-content {
+            color: $white;
+          }
+        }
+      }
+
+
+    } 
+   }
+
  
 }
