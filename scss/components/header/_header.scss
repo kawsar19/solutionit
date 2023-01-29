@@ -1,0 +1,63 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.header {
+ 
+
+  &__content {
+    @include flex-between;
+    align-items: center;
+    &.deskmenu {
+      display: none;
+      @include breakpoint(tab992) {
+        display: flex;
+      }
+    }
+  }
+
+  &__left {
+    .logo {
+      height: size(74);
+      width: size(370);
+      overflow: hidden;
+      img {
+        @include wh100;
+        object-fit: cover;
+      }
+    }
+  }
+  &__right {
+
+    .menu {
+      @include flex;
+       a {
+        padding: size(10);
+        color: $black2;
+        @include font($secounderyFont,14,medium,normal,24);
+        position: relative;
+        text-decoration: none;
+        &::after {
+          position: absolute;
+          content: '';
+          height: size(2);
+          @include transitionsall;
+          left: 50%;
+          width: 0;
+          background-color:$textDark;
+          transform: translateX(-50%);
+          bottom: 0;
+
+          
+        }
+        &:hover {
+        color: $textDark;
+        text-decoration: none;
+          
+          &::after {
+            @include w100;
+          }
+        }
+       }
+    }
+  }
+}

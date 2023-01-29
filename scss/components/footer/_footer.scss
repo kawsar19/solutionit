@@ -1,0 +1,146 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.footer {
+  background: $black2;
+  color: $white;
+  padding-top: size(70);
+
+  .left__content {
+    @include flex-column;
+    gap: size(10);
+
+    @include breakpoint(tab992) {
+      gap: size(20);
+    }
+  }
+
+  .right__content {
+    @include flex-column;
+    gap: size(10);
+
+    @include breakpoint(tab992) {
+      gap: size(20);
+    }
+  }
+
+  &__logo {
+    height: size(55);
+    width: size(280);
+    overflow: hidden;
+
+    img {
+      @include wh100;
+      object-fit: cover;
+    }
+  }
+
+  &__text {
+    @include font($secounderyFont, 16, normal, normal, 27);
+    color:  #C1C1C1;
+
+  }
+
+  &__email {
+    color: $white;
+    @include font($primaryFont, 30, extrabold, normal, 50);
+
+    @include breakpoint(tab992) {
+      @include font($primaryFont, 55, extrabold, normal, 66);
+
+    }
+
+  }
+
+  &__social {
+    .scciallist {
+      @include list-horizontal;
+      gap: size(20);
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      &__item {
+        list-style: none;
+
+        a {
+          color: $white;
+          padding: size(16) size(40);
+          text-decoration: none;
+          @include border(solid, 1, #454545);
+          display: inline-block;
+          @include transitionsall;
+          @include font($secounderyFont, 14, normal, normal, 18);
+          width: size(164);
+          text-align: center;
+
+          @include hover {
+            background: $white;
+            color: $black2;
+          }
+        }
+      }
+
+
+    }
+  }
+
+  &__info {
+    @include flex;
+    align-items: flex-start;
+    gap: size(20);
+    margin-top: size(16);
+
+    .info__box {
+      @include flex;
+      gap: size(8);
+
+      .text {
+        @include font($secounderyFont, 14, normal, normal, 26);
+        color:  #C1C1C1;
+
+
+      }
+    }
+  }
+
+  &__links {
+    padding: size(50) size(0);
+    @include flex;
+    justify-content: center;
+
+    .footerlink {
+      @include list-horizontal;
+      gap: size(30);
+      flex-wrap: wrap;
+      justify-content: center;
+
+      @include breakpoint(tab992) {
+        gap: size(50);
+      }
+
+      &__item {}
+
+      &__link {
+        color: $white;
+        @include font($secounderyFont, 14, normal, normal, 26);
+        
+        @include hover {
+          text-decoration: underline;
+        }
+
+      }
+    }
+  }
+
+  .copyright {
+    padding: size(30) size(0);
+    border-bottom: size(20);
+    border-top: 1px solid #454545;
+    &__text {
+      text-align: center;
+      @include font($secounderyFont, 14, normal, normal, 26);
+      color:  #C1C1C1;
+    }
+  }
+}
