@@ -3493,9 +3493,15 @@ button:focus,
   align-items: center;
   justify-content: space-between;
   gap: 6.25rem;
+  -webkit-transition: transform 350ms ease-in-out;
+  -moz-transition: transform 350ms ease-in-out;
+  -ms-transition: transform 350ms ease-in-out;
+  -o-transition: transform 350ms ease-in-out;
+  transition: transform 350ms ease-in-out;
 }
 .services .services-wrapper .single-service .left-image {
   display: none;
+  min-width: 10rem;
 }
 @media screen and (min-width: 62rem) {
   .services .services-wrapper .single-service .left-image {
@@ -3518,9 +3524,27 @@ button:focus,
 }
 .services .services-wrapper .single-service .right-content .content .service-title {
   color: hsl(0deg, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.25;
 }
 .services .services-wrapper .single-service .right-content .content .service-content {
   color: hsl(0deg, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4285714286;
+}
+.services .services-wrapper .single-service .right-content .icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+}
+.services .services-wrapper .single-service:not([disabled]):hover {
+  transform: translateY(-4px);
 }
 
 .container {
