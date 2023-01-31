@@ -44,11 +44,16 @@
       color: $white;
       text-decoration: none;
       margin-left: size(-30);
+      @include font($primaryFont, 14, medium, normal, 30);
+      @include hover {
+        text-decoration: underline;
+      }
+
     }
   }
 
   .services-wrapper {
-    padding: size(50) size(0);
+    padding: size(50) size(10);
     @include flex-column;
     gap: size(20);
 
@@ -79,12 +84,20 @@
 
           .service-title {
             color: $white;
+            @include font($primaryFont, 20, medium, normal, 30);
+            @include breakpoint(mobile576) {
             @include font($primaryFont, 24, medium, normal, 30);
+
+            }
           }
 
           .service-content {
             color: $white;
+            @include font($primaryFont, 12, normal, normal, 20);
+            @include breakpoint(mobile576) {
             @include font($primaryFont, 14, normal, normal, 20);
+
+            }
 
           }
         }
@@ -105,4 +118,29 @@
   }
 
 
+}
+
+.portfolio {
+  .section-title  {
+    padding-top: size(20);
+    @include flex;
+    align-items: center;
+    gap: size(10);
+    justify-content: center;
+    @include font($primaryFont,14,normal,normal,20);
+
+  }
+
+  .section-title-big {
+    @include font($primaryFont,22,semibold,normal,30);
+    padding: size(10);
+    color: $black2;
+    @include breakpoint(mobile576) {
+    @include font($primaryFont,30,extrabold,normal,40);
+    }
+    @include breakpoint(tab992) {
+    @include font($primaryFont,38,extrabold,normal,50);
+      padding: size(20) size(0);
+    }
+  }
 }
