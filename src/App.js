@@ -1,15 +1,16 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import About from './component/About';
-import Contact from './component/Contact';
+
 import Frienddetail from './component/Frienddetail';
 import Friends from './component/Friends';
-import Notfound from './component/Notfound';
 import Posstdetail from './component/Posstdetail';
 import Posts from './component/Posts';
 import Product from './component/Product';
 import Main from './layout/Main';
+import About from './pages/about/About';
+import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home'
+import NotFound from './pages/notfound/NotFound'
 
 
 const App = () => {
@@ -50,11 +51,13 @@ const App = () => {
 
         {path:'/product', element:<Product/>},
         {path:'/contact', element:<Contact/>},
+        {path:'*',element:<NotFound/>},
+        {path:'/about', element:<About/> },
       ]
     },
     
-    {path:'/about', element:<About/> },
-    {path:'*',element:<Notfound/>}
+    // {path:'/about', element:<About/> },
+    
     
     
  

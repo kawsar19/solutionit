@@ -2,6 +2,13 @@
 @use "../partials" as *;
 
 
+
+.section-title  {
+   color: $black2;
+  @include font($primaryFont,30,extrabold,normal,38);
+  font-weight: 700;
+
+}
 .services {
   background: $black;
   color: $white;

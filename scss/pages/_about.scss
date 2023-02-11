@@ -1,3 +1,61 @@
 @use '../global' as *;
 @use '../partials' as *;
 
+
+
+.about {
+    .heading-text {
+        @include font($secounderyFont, 20,  semibold, normal, 26);
+        text-align: center;
+        color: $black2;
+        @include breakpoint(mobile768) {
+        @include font($secounderyFont, 30,  semibold, normal, 40);
+
+        }
+    }
+}
+
+
+.counter {
+    padding-bottom: size(70);
+    @include breakpoint(tab992) {
+        padding-bottom: size(100);
+    }
+    .counter-box {
+        @include flex-column;
+        gap: size(16);
+        position: relative;
+        align-items: flex-start;
+        justify-content: center;
+        @include transitionsall;
+        @include hover {
+            transform: translateY(-8px);
+        }
+
+      
+        .icon {
+            position: absolute;
+            bottom: 0;
+            @include square(35);
+            svg {
+                @include wh100;
+            }
+        }
+        .counter-text {
+          
+            font: 800 40px Arial;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1px;
+            line-height: 1.3;
+            font-size: 54px;
+           
+        }
+
+        .text {
+            @include font($secounderyFont,16,normal,normal,20);
+            padding-left: size(10);
+            margin-bottom: size(4);
+            color: #454545;
+        }
+    }
+}
