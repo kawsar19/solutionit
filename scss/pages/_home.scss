@@ -151,3 +151,19 @@
     }
   }
 }
+
+.round-link {
+
+  .round-icon {}
+
+  a {
+    color: $white;
+    text-decoration: none;
+    margin-left: size(-30);
+    @include font($primaryFont, 14, medium, normal, 30);
+    @include hover {
+      text-decoration: underline;
+    }
+
+  }
+}

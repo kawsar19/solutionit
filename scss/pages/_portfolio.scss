@@ -1,0 +1,21 @@
+@use '../global' as *;
+@use '../partials' as *;
+
+.portfolio__labels {
+    @include flex;
+    gap: size(30);
+    padding-bottom: size(50);
+    flex-wrap: wrap;
+    @include font($primaryFont,14,medium,normal,16);
+    @include breakpoint(tab992) {
+        padding-bottom: size(70);
+    }
+}
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    grid-gap: 2rem;
+
+}
+

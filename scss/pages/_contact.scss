@@ -1,3 +1,29 @@
 @use '../global' as *;
 @use '../partials' as *;
 
+
+
+
+.contact {
+
+    padding: size(50) size(0);
+    @include breakpoint(tab992) {
+    padding: size(100) size(0);
+    }
+    .contact-us {
+        color: #454545;
+        @include font($secounderyFont,18,normal,normal,20);
+
+    }
+
+    .getin {
+        @include font($primaryFont,40,normal,normal,60);
+        font-weight: 900;
+        @include breakpoint(mobile576) {
+        @include font($primaryFont,70,normal,normal,70);
+        font-weight: 900;
+
+
+        }
+    }
+}

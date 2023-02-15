@@ -71,4 +71,21 @@
             padding: 8px 12px 0;
         }
     }
+} 
+
+.contact-box {
+    @include flex-column;
+    gap: size(10);
+
+    .title {
+        @include font($primaryFont,18,normal,normal,24);
+        font-weight: 800;
+        color: #101010;
+
+    }
+    .info {
+        color: #454545;
+        @include font($primaryFont,14,normal,normal,24);
+
+    }
 }

@@ -11,6 +11,9 @@ import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home'
 import NotFound from './pages/notfound/NotFound'
+import Portfolio from './pages/portfolio/Portfolio';
+import Teams from './pages/teams/Teams';
+import TeamDetail from './pages/teams/TeamDetail';
 
 
 const App = () => {
@@ -21,18 +24,19 @@ const App = () => {
       children:[
         {path:'/', element:<Home/> },
 
-        {path:'/friends',
+      
+        {path:'/teams',
          loader:async ()=>{
           return fetch('https://jsonplaceholder.typicode.com/users')
          },
 
-        element:<Friends/> },
+        element:<Teams/> },
         {
-          path:'/friend/:friendId',
+          path:'/team/:teamId',
           loader:async ({params})=> {
-           return  fetch(`https://jsonplaceholder.typicode.com/users/${params.friendId}`)
+           return  fetch(`https://jsonplaceholder.typicode.com/users/${params.teamId}`)
           },
-          element:<Frienddetail/>
+          element :<TeamDetail/>
         },
        {path:'/posts',
          loader:async ()=>{
@@ -50,6 +54,7 @@ const App = () => {
         },
 
         {path:'/product', element:<Product/>},
+        {path:'/portfolio', element:<Portfolio/>},
         {path:'/contact', element:<Contact/>},
         {path:'*',element:<NotFound/>},
         {path:'/about', element:<About/> },

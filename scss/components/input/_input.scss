@@ -2,4 +2,20 @@
 @use '../../partials' as *;
 
 
+.border-input {
+    @include border-single(bottom,solid,2,#454545);
+    margin: size(10) size(0);
+    padding-bottom: size(8);
+    @include w100;
+    @include transitionsall;
+    &:focus {
+        border-color: $green;
+    }
+
+    &.message {
+        padding-top: size(70);
+    }
+}
+
+
 

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": " Kawsar ahmed ",
+        "profession" :"web developer",
+        "email": " Kawsarbingjahangir@gmail.com ",
+        "about" :"Digital there are many variations of passages of Lorem Ipsum available, but the majority have suffered alter in some form, by injected humour, or randomised words. is a long established fact that a reader will be distrac by the readable content of a page when looking at its layout. The point of using Lorem Ipm i has a more-ornormal.",
+        "address" :"Kapasia , Gazipur",
+        "phone" :"01762772008",
+        "photo" :"https://i.ibb.co/XFZwVyK/kawsar.jpg",
+        "portfolios" :[
+            {
+            "github" : "https://github.com/kawsar19",
+            "linkdin" : "https://linkdin.com/kawsar19"
+            }
+         ],
+         "skills" :
+         [
+            [
+             {"percent" :"99%"},
+             {"title" :"Research & Analyze"},
+             {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
+            ],
+            [
+                {"percent" :"80%"},
+                {"title" :"css"},
+                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
+               ],
+               [
+                {"percent" :"87%"},
+                {"title" :"Javascript"},
+                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
+               ]
+         ]
+    },
+
+    {
+        "id": 2,
+        "name": " Alamin mohammad ",
+        "profession" :"Video Edior",
+        "email": " alaminr@gmail.com ",
+        "about" :"Digital there are many variations of passages of Lorem Ipsum available, but the majority have suffered alter in some form, by injected humour, or randomised words. is a long established fact that a reader will be distrac by the readable content of a page when looking at its layout. The point of using Lorem Ipm i has a more-ornormal.",
+        "address" :"Rampura , Dahaka",
+        "phone" :"880 1861-247743",
+        "photo" :"https://i.ibb.co/XFZwVyK/kawsar.jpg",
+        "portfolios" :[{
+            "github" : "https://github.com/kawsar19",
+            "linkdin" : "https://linkdin.com/kawsar19"
+        }
+         ],
+         "skills" :
+         [
+            [
+             {"percent" :"99%"},
+             {"title" :"Research & Analyze"},
+             {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
+            ],
+            [
+                {"percent" :"80%"},
+                {"title" :"css"},
+                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
+               ],
+               [
+                {"percent" :"87%"},
+                {"title" :"Javascript"},
+                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
+               ]
+         ]
+    }
+        
+       
+]
