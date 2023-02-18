@@ -8,6 +8,10 @@ const Header = () => {
   const handleCLick=(path)=>{
     navigate('/');
   }
+  const goTeam=(path)=>{
+    alert('hi')
+    navigate('/teams');
+  }
 
   return (
     <header className="header sticky-top bg-white">
@@ -25,7 +29,7 @@ const Header = () => {
             <div className="menu">
               <Link to="/">HOME</Link>
               <Link to="/about">ABOUT</Link>
-              <Link to="/contact">SERVICES</Link>
+              <Link to="/teams">TEAMS</Link>
               <Link to="/portfolio">PORTFOLIO</Link>
               {/* <Link to="/posts">CONTACT US</Link> */}
               <Link to="/contact">CONTACT US</Link>
@@ -103,26 +107,23 @@ const Header = () => {
                   ABOUT
                 </Link>
               </li>
-              <li class="mobilelist-item">
-                <a href="holiday-search.html" class="mobilelist-link">
-                  SERVICES
-                </a>
-              </li>
-              <li class="mobilelist-item">
-                <a href="visa.html" class="mobilelist-link">
-                  PORTFOLIO
-                </a>
-              </li>
-              <li class="mobilelist-item">
-                <a href="blog.html" class="mobilelist-link">
-                  BLOG
-                </a>
-              </li>
-              <li class="mobilelist-item">
-                <Link to="/contact" class="mobilelist-link">
-                  CONTACT US
+              <li class="mobilelist-item" data-bs-dismiss="offcanvas">
+               <Link to="/teams" class="mobilelist-link" >
+                  TEAMS
                 </Link>
               </li>
+              <li class="mobilelist-item" data-bs-dismiss="offcanvas">
+              <Link to="/portfolio" class="mobilelist-link" >
+                 PORTFOLIO
+                </Link>
+              </li>
+              <li class="mobilelist-item" data-bs-dismiss="offcanvas">
+              <Link to="/contact" class="mobilelist-link" >
+                  CONTACT
+                </Link>
+              </li>
+             
+    
             </ul>
           </div>
         </div>

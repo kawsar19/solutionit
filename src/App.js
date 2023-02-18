@@ -27,14 +27,14 @@ const App = () => {
       
         {path:'/teams',
          loader:async ()=>{
-          return fetch('https://jsonplaceholder.typicode.com/users')
+          return fetch('https://nodeback-kawsar19.vercel.app/teams')
          },
 
         element:<Teams/> },
         {
           path:'/team/:teamId',
           loader:async ({params})=> {
-           return  fetch(`https://jsonplaceholder.typicode.com/users/${params.teamId}`)
+           return  fetch(`https://nodeback-kawsar19.vercel.app/team/${params.teamId}`)
           },
           element :<TeamDetail/>
         },

@@ -1,0 +1,87 @@
+@use '../global' as *;
+@use '../partials' as *; 
+
+.team-member {
+    position: relative;
+    max-height: size(300);
+    overflow: hidden;
+
+    img {
+        @include wh100;
+        @include transitiontransform;
+        @include hover {
+            transform: scale(1.02);
+        }
+       
+    }
+    .content {
+        position: absolute;
+        top: 50%;
+        transform: rotate(-90deg);
+        left: -40px;
+      p {
+       color: crimson;
+       font-weight: 900;
+      }
+
+    }
+} 
+
+
+.skill-box {
+    @include flex-column;
+    gap: size(22);
+
+    .title {
+        color: $black2;
+        @include font($primaryFont,18,normal,normal,26);
+        font-weight: 700;
+
+        @include breakpoint(mobile576) {
+        @include font($primaryFont,22,normal,normal,26);
+        font-weight: 700;
+
+        }
+
+    }
+
+    .skill-info {
+        color: #454545;
+        @include font($primaryFont,14,normal,normal,24); 
+    }
+}
+.counter-text {
+          
+    font: 800 40px Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    line-height: 1.3;
+    font-size: 54px;
+   
+}
+
+.right-content {
+    @include flex-column;
+    justify-content: space-between;
+    height: 100%;
+    gap: size(20);
+}
+
+.about-text {
+    @include font($primaryFont,14,normal,normal,28); 
+
+    @include breakpoint(mobile576) {
+    @include font($primaryFont,16,normal,normal,32); 
+
+    }
+
+}
+
+.info {
+    color: #565656;
+}
+.info span {
+    font-weight: 600;
+    color: $black2;
+    padding-right: size(20);
+}

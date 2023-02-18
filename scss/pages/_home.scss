@@ -5,8 +5,15 @@
 
 .section-title  {
    color: $black2;
+  @include font($primaryFont,20,extrabold,normal,38);
+  font-weight: 600;
+
+  @include breakpoint(mobile576) {
   @include font($primaryFont,30,extrabold,normal,38);
   font-weight: 700;
+
+
+  }
 
 }
 .services {

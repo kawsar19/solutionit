@@ -1,72 +1,462 @@
 [
     {
-        "id": 1,
-        "name": " Kawsar ahmed ",
-        "profession" :"web developer",
-        "email": " Kawsarbingjahangir@gmail.com ",
-        "about" :"Digital there are many variations of passages of Lorem Ipsum available, but the majority have suffered alter in some form, by injected humour, or randomised words. is a long established fact that a reader will be distrac by the readable content of a page when looking at its layout. The point of using Lorem Ipm i has a more-ornormal.",
-        "address" :"Kapasia , Gazipur",
-        "phone" :"01762772008",
-        "photo" :"https://i.ibb.co/XFZwVyK/kawsar.jpg",
-        "portfolios" :[
-            {
-            "github" : "https://github.com/kawsar19",
-            "linkdin" : "https://linkdin.com/kawsar19"
-            }
-         ],
-         "skills" :
-         [
-            [
-             {"percent" :"99%"},
-             {"title" :"Research & Analyze"},
-             {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
-            ],
-            [
-                {"percent" :"80%"},
-                {"title" :"css"},
-                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
-               ],
-               [
-                {"percent" :"87%"},
-                {"title" :"Javascript"},
-                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
-               ]
-         ]
+      "id": 1,
+      "name": " Al Amin ",
+      "profession": "Video Editor and Motion Designer",
+      "email": "alaminmuhammad4123@gmail.com ",
+      "about": "A Video professional Video Editor who is responsible for taking the raw footage shot by a film crew and director, then turning it into one cohesive video or film. The Video Editor must follow an outline and script and any special instructions given about what should happen in each scene",
+      "address": "Jamtola, Slamabag, East Rampura, Dhaka - 1219",
+      "phone": "+880 1861247743",
+      "photo": "https://i.ibb.co/XS8Fv1C/9b113eb9-9b22-4abe-9374-9b6f7d4d66b2.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "99%"
+          },
+          {
+            "title": " Video Editing"
+          },
+          {
+            "skillContent": "Video editing is a vital skill for creating engaging content. To excel, practice with software, experiment with techniques, and study the work of others."
+          }
+        ],
+        [
+          {
+            "percent": "80%"
+          },
+          {
+            "title": "Motion Designing"
+          },
+          {
+            "skillContent": "Motion Designing involves creating animated graphics, videos, and other digital media. It requires a combination of technical skills and creative flair to bring designs to life."
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Videography"
+          },
+          {
+            "skillContent": "Videography is the art of capturing and editing video footage. It involves a keen eye for composition, lighting, and storytelling to create compelling visual narratives."
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Content Creation "
+          },
+          {
+            "skillContent": "Content creation is the process of developing and sharing various forms of media, such as written, visual, or audio, to inform, entertain, or educate an audience."
+          }
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": " Ahmed Al Imran ",
+      "profession": "Animation Creator",
+      "email": "",
+      "about": "An professional animator   who creates videos that are either stop-motion, hand-drawn or computer-generated (CG). Animators can help businesses convey complex concepts through short, impactful visual content. ",
+      "address": "",
+      "phone": "",
+      "photo": "https://i.ibb.co/n1sSK7Z/bffa4438-e72f-45b7-b067-5aadaac64f77.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "86%"
+          },
+          {
+            "title": " Communication skills"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "90%"
+          },
+          {
+            "title": " 2D Animation"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Photographer"
+          },
+          {
+            "skillContent": ""
+          }
+        ],
+        [
+          {
+            "percent": "92%"
+          },
+          {
+            "title": "Content Creator"
+          },
+          {
+            "skillContent": ""
+          }
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": " Hedayet Ullah Rumi",
+      "profession": "Business Strategist ",
+      "email": "",
+      "about": "I have 8+ years of online marketing experience with in-depth skills in market case studies.",
+      "address": "",
+      "phone": "",
+      "photo": "https://i.ibb.co/LQBrDgQ/058392f1-00d6-4569-972f-ca989bef697e.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "86%"
+          },
+          {
+            "title": " Communication skills"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "90%"
+          },
+          {
+            "title": "Business Development,"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Market Analysis"
+          },
+          {
+            "skillContent": ""
+          }
+        ],
+        [
+          {
+            "percent": "92%"
+          },
+          {
+            "title": "Product Developmen"
+          },
+          {
+            "skillContent": ""
+          }
+        ]
+      ]
     },
 
     {
-        "id": 2,
-        "name": " Alamin mohammad ",
-        "profession" :"Video Edior",
-        "email": " alaminr@gmail.com ",
-        "about" :"Digital there are many variations of passages of Lorem Ipsum available, but the majority have suffered alter in some form, by injected humour, or randomised words. is a long established fact that a reader will be distrac by the readable content of a page when looking at its layout. The point of using Lorem Ipm i has a more-ornormal.",
-        "address" :"Rampura , Dahaka",
-        "phone" :"880 1861-247743",
-        "photo" :"https://i.ibb.co/XFZwVyK/kawsar.jpg",
-        "portfolios" :[{
-            "github" : "https://github.com/kawsar19",
-            "linkdin" : "https://linkdin.com/kawsar19"
-        }
-         ],
-         "skills" :
-         [
-            [
-             {"percent" :"99%"},
-             {"title" :"Research & Analyze"},
-             {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
-            ],
-            [
-                {"percent" :"80%"},
-                {"title" :"css"},
-                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
-               ],
-               [
-                {"percent" :"87%"},
-                {"title" :"Javascript"},
-                {"slill-content" :"Welcome to our digital agency We specialize in helping your business most"}
-               ]
-         ]
+      "id": 4,
+      "name": " Md Anonto Ashraf",
+      "profession": "Video Editor",
+      "email": "",
+      "about": "",
+      "address": "",
+      "phone": "",
+      "photo": "https://i.ibb.co/hXnKTkJ/fa938684-dd0c-4664-b315-e235d6b9331d.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "86%"
+          },
+          {
+            "title": " Communication skills"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Video Editing,,"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Content Creation"
+          },
+          {
+            "skillContent": ""
+          }
+        ],
+        [
+          {
+            "percent": "92%"
+          },
+          {
+            "title": "photography"
+          },
+          {
+            "skillContent": ""
+          }
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "  Anisur Rahman",
+      "profession": "Graphic Designer & Video Editor",
+      "email": "",
+      "about": "",
+      "address": "",
+      "phone": "",
+      "photo": "https://i.ibb.co/3BkqsY5/30734c60-7340-4503-aa3b-b9436a80089e.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "86%"
+          },
+          {
+            "title": " Communication skills"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "95%"
+          },
+          {
+            "title": " Video Editing"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Content Creation"
+          },
+          {
+            "skillContent": ""
+          }
+        ],
+        [
+          {
+            "percent": "92%"
+          },
+          {
+            "title": "photography"
+          },
+          {
+            "skillContent": ""
+          }
+        ]
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": " Md Kawser Ahmed",
+      "profession": " Wev Developer",
+      "email": "",
+      "about": "",
+      "address": "",
+      "phone": "",
+      "photo": "https://i.ibb.co/XFZwVyK/kawsar.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "90%"
+          },
+          {
+            "title": "React js "
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "95%"
+          },
+          {
+            "title": " Express js"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "MOngo db database"
+          },
+          {
+            "skillContent": ""
+          }
+        ],
+        [
+          {
+            "percent": "92%"
+          },
+          {
+            "title": "Nodejs "
+          },
+          {
+            "skillContent": ""
+          }
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": " Sabiqun Naher",
+      "profession": "  Video Editor",
+      "email": "",
+      "about": "",
+      "address": "",
+      "phone": "",
+      "photo": "https://i.ibb.co/n3w0Cdd/b8cdd610-cbb3-4a1e-9195-a7c1c75b974a.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "90%"
+          },
+          {
+            "title": "Communication skills"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "85%"
+          },
+          {
+            "title": " Video Editing"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Content Creation"
+          },
+          {
+            "skillContent": ""
+          }
+        ],
+        [
+          {
+            "percent": "92%"
+          },
+          {
+            "title": "photography"
+          },
+          {
+            "skillContent": ""
+          }
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": " Lalita Nandita",
+      "profession": "  Video Editor",
+      "email": "",
+      "about": "",
+      "address": "",
+      "phone": "",
+      "photo": "https://i.ibb.co/ZVvyLXD/9190157e-5bf1-4c4c-8afc-28bd347023cc.jpg",
+
+      "skills": [
+        [
+          {
+            "percent": "90%"
+          },
+          {
+            "title": "Communication skills"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "85%"
+          },
+          {
+            "title": " Video Editing"
+          },
+          {
+            "skillContent": " "
+          }
+        ],
+        [
+          {
+            "percent": "87%"
+          },
+          {
+            "title": "Content Creation"
+          },
+          {
+            "skillContent": ""
+          }
+        ],
+        [
+          {
+            "percent": "92%"
+          },
+          {
+            "title": "photography"
+          },
+          {
+            "skillContent": ""
+          }
+        ]
+      ]
     }
-        
-       
-]
+
+  
+  ]
